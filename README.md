@@ -5,4 +5,4 @@
 - Modellerde zorunlu alanların kontrolü yapıldı.
 - Routing kullanıldı.
 - Model binding işlemleri hem body den hemde query den yapılacak şekilde örneklendirildi. Bonus:
-- Standart crud işlemlerine ek olarak, listeleme ve sıralama işlevleride eklendi.
+- Standart crud işlemlerine ek olarak, listeleme ve sıralama işlevleri de eklendi.
