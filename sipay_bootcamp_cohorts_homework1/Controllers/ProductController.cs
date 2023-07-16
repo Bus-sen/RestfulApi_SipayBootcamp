@@ -120,7 +120,7 @@ public class ProductController : ControllerBase
 
     //FILTER
     [HttpGet("list")]
-    public IActionResult GetProductByTitle (string title)
+    public IActionResult GetProductByTitle ([FromQuery] string title)
     {
         var filteredProduct = ProductList.Where(p => p.Title.Contains(title)).ToList();
         return Ok(filteredProduct); 
